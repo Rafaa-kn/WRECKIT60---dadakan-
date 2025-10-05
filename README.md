@@ -1,56 +1,55 @@
 ```markdown
-# WRECKIT60-dadakan 🛠️
+# 🛠️ WRECKIT60-dadakan
 
-![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Python](https://img.shields.io/badge/Python-3.x-blue)  
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-**WRECKIT60-dadakan** adalah proyek Python untuk **debugging, pemulihan, dan ekstraksi flag** dari file biner. Proyek ini dibuat untuk tujuan edukasi dan eksperimen dalam bidang **security / reverse engineering**.
+**WRECKIT60-dadakan** adalah proyek Python yang dirancang untuk **debugging, pemulihan, dan ekstraksi flag** dari file biner. Cocok untuk eksperimen dalam bidang **keamanan siber (security)** dan **reverse engineering**.
 
 ---
 
-## 📂 Struktur Proyek
+## 📁 Struktur Proyek
 
 ```
-
 WRECKIT60-dadakan/
-├── debug_recover.py      # Debugging dan pemulihan file biner
-├── extract_flag.py       # Mengekstrak flag dari file biner
-├── recover_flag.py       # Memulihkan flag tersembunyi atau hilang
+├── debug_recover.py   # Debugging dan pemulihan file biner
+├── extract_flag.py    # Ekstrak flag dari file biner
+├── recover_flag.py    # Memulihkan flag yang hilang atau tersembunyi
 └── README.md
-
-````
+```
 
 ---
 
 ## ⚡ Fitur Utama
 
-- Debug file biner untuk menemukan data yang hilang.
-- Mengekstrak flag dari file yang dianalisis.
-- Memulihkan flag yang tersembunyi atau rusak.
-- Mudah digunakan dengan Python 3.x.
+- Debug file biner untuk menemukan data yang hilang atau rusak.
+- Ekstrak flag dari file biner.
+- Pemulihan flag yang tersembunyi atau terenkripsi.
+- Ditulis dalam Python 3.x, mudah dipahami dan dikembangkan.
 
 ---
 
-## 🚀 Cara Instalasi & Penggunaan
+## 🚀 Cara Penggunaan
 
-1. Clone repo ini:
+1. Clone repositori ini:
 
 ```bash
 git clone https://github.com/Rafaa-kn/WRECKIT60-dadakan.git
 cd WRECKIT60-dadakan
-````
+```
 
-2. Pastikan Python 3.x sudah terpasang.
+2. Pastikan Python 3.x sudah terinstal di sistem kamu.
+
 3. Jalankan skrip sesuai kebutuhan:
 
 ```bash
-# Debug dan pemulihan file
+# Untuk debugging dan pemulihan file
 python debug_recover.py
 
-# Ekstraksi flag
+# Untuk mengekstrak flag
 python extract_flag.py
 
-# Pemulihan flag
+# Untuk memulihkan flag
 python recover_flag.py
 ```
 
@@ -58,47 +57,38 @@ python recover_flag.py
 
 ## 🧩 Prasyarat
 
-* Python 3.x
-* (Opsional) Library tambahan bisa ditambahkan jika skrip membutuhkan dependencies tertentu.
+- Python 3.x
+- (Opsional) Tambahan library jika diperlukan oleh skrip tertentu.
 
 ---
 
 ## 📖 Contoh Penggunaan
 
-> Tambahkan contoh input/output jika ada, misal screenshot atau hasil terminal.
+> *Catatan: Tambahkan contoh input/output jika tersedia.*
 
 ```bash
 python extract_flag.py
-# Output: FLAG{contoh_flag}
+# Output: FLAG{your_flag_here}
 ```
 
 ---
 
 ## 📄 Lisensi
 
-Tentukan lisensi proyek (contoh: MIT License):
-
-```
-MIT License
-```
+Proyek ini menggunakan lisensi **MIT License**.
 
 ---
 
 ## 🤝 Kontribusi
 
-Kontribusi selalu diterima! Silakan fork repo ini dan buat pull request.
-Untuk bug atau request fitur, gunakan **Issues**.
+Kontribusi sangat dipersilakan!  
+Silakan fork repositori ini dan buat pull request.  
+Untuk laporan bug atau permintaan fitur, gunakan fitur **Issues** di GitHub.
 
 ---
 
 ## 📌 Catatan
 
-* Proyek ini untuk tujuan **edukasi dan eksperimen**.
-* Gunakan dengan **etika dan tanggung jawab**.
-
-```
-
----
-
-Apakah mau aku buatkan versi itu juga?
+- Proyek ini dibuat untuk **tujuan edukasi dan eksperimen**.
+- Gunakan dengan **etika dan tanggung jawab**.
 ```
